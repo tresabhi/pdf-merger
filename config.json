@@ -1,4 +1,16 @@
 {
-  "source": "E:/2021-discrete",
-  "target": "E:/2021-merged"
+  "combiner": {
+    "source": "E:/2021-discrete",
+    "target": "E:/2021-merged"
+  },
+
+  "merger": {
+    "source": "E:/2023-discrete"
+  },
+
+  "splitter": {
+    "source": "E:/2023-discrete.pdf",
+    "target": "E:/2023",
+    "total_pages": 1104
+  }
 }
